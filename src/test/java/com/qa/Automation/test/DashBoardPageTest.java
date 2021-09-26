@@ -47,6 +47,7 @@ public class DashBoardPageTest extends BaseTest{
 		public void verifyTitleTest() {
 		String titleText	=userDashboard.getDashBoardTitle();
 		System.out.println("tite of the page--" +titleText);
+		System.out.println("after getting title of the page");
 		Assert.assertEquals(titleText, Constants.DashBoard_Page_Title);
 		}
 		
