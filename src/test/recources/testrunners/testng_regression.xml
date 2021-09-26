@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Test  regression suite"
+ verbose="1">
+
+	
+
+	<test name="SignUp page Test">
+		<parameter name="browser" value="chrome" /> 
+
+		<classes>
+			<class name="com.qa.Automation.test.SignInPageTest" />
+		</classes>
+
+	</test>
+	
+	
+	
+	<test name="DashBoard Page Test">
+		<parameter name="browser" value= "firefox" /> 
+
+		<classes>
+			<class name="com.qa.Automation.test.DashBoardPageTest" />
+		</classes>
+
+	</test>
+	
+	
+	
+	
+	</suite>

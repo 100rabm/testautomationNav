@@ -1,0 +1,22 @@
+#########################
+## java
+#########################
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.classpath
+*.settings
+*.project
+######################
+## MAVEN
+######################
+target/
+test-output/
+maven dependencies/
+
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.bak
+pom.xml.next
