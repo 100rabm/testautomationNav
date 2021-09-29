@@ -1,5 +1,14 @@
 package com.qa.Automation.pages;
 
-public class ContactPage {
+import org.openqa.selenium.WebDriver;
 
+import com.qa.Automation.base.BasePage;
+
+public class ContactPage extends BasePage{
+
+	
+	private WebDriver driver;
+	
+	
+	
 }
